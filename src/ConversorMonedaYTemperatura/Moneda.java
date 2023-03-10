@@ -14,61 +14,61 @@ public class Moneda {
 
         switch (opcion){
             case "De Pesos a Dólar":
-                double monedaDolar = valor / 137.68;
+                double monedaDolar = valor / 4718;
                 monedaDolar = (double) Math.round(monedaDolar * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes $ " + monedaDolar + " Dolares");
                 break;
 
             case "De Pesos a Euro":
-                double monedaEuro = valor / 137.20;
+                double monedaEuro = valor / 5028;
                 monedaEuro = (double) Math.round(monedaEuro * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes $ " + monedaEuro + " Euros");
                 break;
 
             case "De Pesos a Libras Esterlinas":
-                double monedaLibra = valor / 161.52;
+                double monedaLibra = valor / 5678;
                 monedaLibra = (double) Math.round(monedaLibra * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes $ " + monedaLibra + " Libras Esterlinas");
                 break;
 
             case "De Pesos a Yen Japonés":
-                double monedaYen = valor / 1;
+                double monedaYen = valor / 162;
                 monedaYen = (double) Math.round(monedaYen * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes $ " + monedaYen + " Yen Japonés");
                 break;
 
             case "De Pesos a Won sub-coreano":
-                double monedaWon = valor / 0.1;
+                double monedaWon = valor / 3.57;
                 monedaWon = (double) Math.round(monedaWon * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes $ " + monedaWon + " Won sub-coreano");
                 break;
 
             case "De Dólar a Pesos":
-                monedaDolar = 137.68 * valor;
+                monedaDolar = 5028 * valor;
                 monedaDolar = (double) Math.round(monedaDolar * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes Dolares " + monedaDolar + " en pesos");
                 break;
 
             case "De Euro a Pesos":
-                monedaEuro = valor * 137.20;
+                monedaEuro = valor * 5028;
                 monedaEuro = (double) Math.round(monedaEuro * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes Euros " + monedaEuro + " en pesos");
                 break;
 
             case "De Libras Esterlinas a Pesos":
-                monedaLibra = valor * 161.52;
+                monedaLibra = valor * 5678;
                 monedaLibra = (double) Math.round(monedaLibra * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes Libras Esterlinas " + monedaLibra + " en pesos");
                 break;
 
             case "De Yen Japonés a Pesos":
-                monedaYen = valor * 1;
+                monedaYen = valor * 162;
                 monedaYen = (double) Math.round(monedaYen * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes Yen Japonés " + monedaYen + " en pesos");
                 break;
 
             case "De Won sub-coreano a Pesos":
-                monedaWon = valor * 0.1;
+                monedaWon = valor * 3.57;
                 monedaWon = (double) Math.round(monedaWon * 100d) / 100;
                 JOptionPane.showMessageDialog(null, "Tienes Won sub-coreano " + monedaWon + " en pesos");
         }
