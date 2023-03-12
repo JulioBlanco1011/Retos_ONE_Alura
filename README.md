@@ -12,6 +12,6 @@ Este reto se desarrollo con Java y se aplico las todo lo visto en las clases de 
 
 - Puedes convertir Moneda local Colombiana a varias Divisas;
 - Divisas disponibles para convertir: Euro, Dolar, Libras, Yen, Won;
-- Tambien tienes la opcion de convertir Divisa estranjera en moneda local;
+- Tambien tienes la opcion de convertir Divisa extranjera en moneda local;
 - El programa posee la opcion  de convertir Temperaturas; 
 - Tenemos opciones como: Fahrenheit, Celsius, Kelvin, Rankine;
